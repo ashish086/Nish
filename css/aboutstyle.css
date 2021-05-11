@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.row-head{
+  margin: 0px auto;
+  padding: 30px 0px;
+  min-height:200px;
+}
+
+.row-content{
+    margin-top:-20px;
+    margin-bottom:40px;
+}
+
+.head_h1{
+    font-weight:900;
+    font-size:40px;
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    font-size:25px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 768px)
+{
+    #about .box_medium {
+        width: 85% !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+
+#about .box_medium {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 240px;
+    padding-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 768px){
+    #about .box_medium h1 {
+        font-size: 24px;
+    }
+    #about a{
+        text-decoration: none;
+    }
+    #team p{
+        font-size:20px;
+    }
+}
+
+#about .box_medium h1 {
+    font-size:24px;
+    font-weight:700;
+    text-align:left;
+}
+
+#team p{
+    font-size:20px;
+    font-weight:700;
+    text-align: left;
+    color:#fff;
+}
+
+#about .box_1 {
+    background: linear-gradient(138deg,#2650a4 55%,#00c6ff);
+    background-color:#0d3973;
+    transition: 1s;
+    color: #fff;
+}
+
+#about .box_2 p,#about .box_2 h1{
+    font-weight:700;
+    color:#0d3973;
+}
+
+#about .box_2 {
+    background: linear-gradient(138deg,#fff,#f0f0f0 51%);
+    transition: 1s;
+}
+
+section {
+    display: block;
+}
+
+#footer {
+    min-height:375px;
+    background-color: #f0f0f0;
+    margin-top:-130px;
+    padding-bottom: 80px;
+    padding-top: 230px;
+}
+
+#footer img{
+    height:60px;
+    width:60px;
+}
+
+#footer img{
+    height:60px;
+    width:60px;
+}
+
+  
