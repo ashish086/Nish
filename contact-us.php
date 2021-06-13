@@ -48,6 +48,7 @@ $conn->close();
     $mail->addAddress('webnishrithafoundation@gmail.com');     
     $mail->isHTML(true);                                 
     $mail->Subject = 'Hey, someone just filled contact form';
+    //Changes 
 
     $mail->Body = "<!DOCTYPE html>
 

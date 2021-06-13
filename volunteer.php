@@ -12,6 +12,7 @@ $host = "localhost";
 $dbusername = "id14446204_nishritha_admin";
 $dbpassword = "m7ZN9GrX9_YaBnT";
 $dbname = "id14446204_nishritha_foundation";
+//From another account
 
 $conn = new mysqli($host,$dbusername,$dbpassword,$dbname);
 
